@@ -1,3 +1,5 @@
+var Dog = require('./Dog')
+
 function Cat(){
 
 }
