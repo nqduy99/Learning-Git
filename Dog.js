@@ -3,13 +3,12 @@ import Mouse from "./Mouse.js";
 
 function Dog(){
     this.name = "Luca"
-    Dog.prototype.eat = function(cat){
-        this.stomach.push(cat);
-    }
-
-    console.log(Mouse.getName())
+    this.stomach = []
 }
 
-Dog()
+Dog.prototype.eat = function(cat){
+    this.stomach.push(cat)
+    console.log('test merge')
+}
 
 export default Dog;
