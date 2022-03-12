@@ -25,3 +25,4 @@ Git concept
 - git checkout <branch>               : Chuyển sang nhánh có tên là "branch"
 - git merge                           : Ghép hai nhánh lại với nhau
 Để ghép nhanh B vào A nhánh A ( A <-- B ) thì branch hiện tại phải ở nhánh A trước, sau đó git merge tên của nhánh B
+Cú pháp git merge B
