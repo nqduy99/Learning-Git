@@ -8,6 +8,7 @@ function Dog(){
 
 Dog.prototype.eat = function(cat){
     this.stomach.push(cat)
+    console.log('test merge')
 }
 
 export default Dog;
