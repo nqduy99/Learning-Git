@@ -26,3 +26,9 @@ Git concept
 - git merge                           : Ghép hai nhánh lại với nhau
 Để ghép nhanh B vào A nhánh A ( A <-- B ) thì branch hiện tại phải ở nhánh A trước, sau đó git merge tên của nhánh B
 Cú pháp git merge B
+
+=================================================
+
+- git reset --soft <commitId>         : Quay trở lại trạng thái khi chưa commit có id là "commitId" tức là đang ở trạng thái staging
+- git reset --mixed <commitId>        : Quay trở lại trạng thái khi chưa add file vào staging của commit có id là "commitId"
+- git reset --hard <commitId>         : Quay trở lại commit có id là "commitId" xóa những commit sau commit có id "commitId" (có thể gây mất những dòng code, hạn chế sử dụng)
